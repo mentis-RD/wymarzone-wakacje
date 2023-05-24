@@ -16,6 +16,15 @@ body {
   .test:hover{
     transform: scale(1.2,1.2);
   }
+  .test-review{
+    width: 300px;
+    border-radius: 16px;
+    box-shadow: 0px 100px 70px rgba(169,180,203,.2), -3px -3px 4px #fff, 0px 3px 0px #d6dadf, inset 0px -20px 20px rgba(255,255,255,.2);
+    position: relative;
+    padding: 20px;
+    height: 320px;
+    transition: all 0.25s linear;
+  }
   .test_video{
     width: 720px;
     height: 576px;
@@ -128,17 +137,17 @@ body {
   }
   .buffer-beach {
     width: 100%;
-    min-height: 300vh;
+    min-height: 400vh;
     background-color: #f0f1f3;
   }
   .buffer-mountain {
     width: 100%;
-    min-height: 300vh;
+    min-height: 355vh;
     background-color: #f0f1f3;
   }
   .buffer-nat {
     width: 100%;
-    min-height: 300vh;
+    min-height: 400vh;
     background-color: #f0f1f3;
   }
   h2{
@@ -213,3 +222,26 @@ body {
   a {
     text-decoration: none;
   }
+  .avatar{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    padding-right: 2vh;
+  }
+  h3{
+    position: relative;
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 400;
+    bottom: 7%;
+  }
+  .review_text{
+    font-size: 1.5rem;
+    font-weight: 300;
+    position: relative;
+    bottom: 15%;
+  }
+  
